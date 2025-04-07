@@ -1,1 +1,10 @@
+def Bmirechner():
+    gewicht = float(input("Gib dein Gewicht in kg ein:"))
+    groesse = float(input("Gib deine Größe in Meter ein:"))
+    bmi = gewicht / (groesse ** 2)
+    print(f"Dein BMI beträgt: {bmi:.2f}")
+
+
+Bmirechner()
+
 
