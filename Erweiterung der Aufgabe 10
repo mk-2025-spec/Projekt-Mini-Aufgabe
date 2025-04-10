@@ -1,1 +1,8 @@
-
+def bmiRechner():
+    gewicht = float(input("Gib dein Gewicht in kg ein:"))
+    groesse = float(input("Gib deine Größe in cm ein:"))
+    bmi = gewicht / (groesse ** 2)
+    bmi= bmi * 10000
+    print(bmi)
+    
+bmiRechner()
