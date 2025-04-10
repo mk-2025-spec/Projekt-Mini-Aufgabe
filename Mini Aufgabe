@@ -25,9 +25,7 @@ def bmiRechner():
     for index, wert in enumerate(bmiverlauf):
         print(f"BMI {index + 1}: {wert:.2f}")
     
-    print(f"Durchschnittlicher BMI: {sum(bmiverlauf) / len(bmiverlauf):.2f}")
-    print(f"Höchster BMI: {max(bmiverlauf):.2f}")
-    print(f"Niedrigster BMI: {min(bmiverlauf):.2f}")
+
 
 bmiRechner()
 
